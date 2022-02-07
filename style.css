@@ -1,10 +1,50 @@
-.rock {
-    background-color: #4CAF50; /* Green */
+body {
+    background-color: #1D201F;
+
+ 
+}
+
+#message {
+    background-color: #EAD2AC;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #DF928E;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    
+}
+
+#buttons{
+    background-color: #EAD2AC;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #DF928E;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+button {
+    background-color: #D1DEDE;
+    color: black;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    padding: 15px 120px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    border: 3px solid #DF928E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+
+  button:hover {
+    background-color: #1D201F; /* Green */
+    color: white;
   }
